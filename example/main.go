@@ -28,7 +28,7 @@ func main() {
 	err = cvhelpers.PrintNCHWRegion(
 		nchw,
 		input.Cols(), input.Rows(), input.Channels(),
-		image.Rect(200, 600, 210, 610),
+		image.Rect(200, 600, 205, 605),
 	)
 	if err != nil {
 		panic(err)
